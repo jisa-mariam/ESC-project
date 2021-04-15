@@ -1,0 +1,38 @@
+Descriptions of files and their usage
+
+capstonepref -csv.ipynb
+-A jupyter notebook to read the excel sheet in a csv form, need to download the csv file from the online excel spreadsheet
+-csv file need to be in the same folder
+-More work and less automation
+
+capstonepref.ipynb
+-A jupyter notebook to read the online excel sheet, no need to download anything
+-Usage of json file to link the code to the online excel sheet directly
+-Same purpose as excel.py but this file has more explaination and guidelines
+
+utils.py
+-main python file containing all the functions 
+
+excel.py
+-python file that act as a black box for capstone team to run
+
+testing.py
+-python file using unittest library to test the functions
+
+
+Libraries needed:
+gspread
+oauth2client.service_account
+unittest
+
+Useful links:  
+-To google forms for students to fill in their preferences
+www.tinyurl.com/capstonepref
+-To google forms responses
+https://docs.google.com/forms/d/18t66y0X5pbvQ-zA2hhsCprV7xcdlg4MVRQrmQbm7FT0/edit
+-To responses excel spreadsheet
+https://docs.google.com/spreadsheets/d/1LT7AOWy1jw8HuAT00N2ULrLylFRoGZzYEUMHDGi6es0/edit#gid=1320405905
+-To link python code to online excel sheet:
+-https://towardsdatascience.com/accessing-google-spreadsheet-data-using-python-90a5bc214fd2  
+To create executable file for improved user's experience
+https://dev.to/eshleron/how-to-convert-py-to-exe-step-by-step-guide-3cfi
